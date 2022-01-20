@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="FirefoxBrowserTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="seleniumNewFeatures.WindowHandles">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- seleniumNewFeatures.WindowHandles -->
+    </classes>
+  </test> <!-- FirefoxBrowserTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

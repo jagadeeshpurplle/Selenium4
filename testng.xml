@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel ="tests">
+  
+<!--   <test name="FirefoxBrowserTest">   -->
+<!--    <parameter name="browser" value = "firefox"></parameter>    -->
+<!--    <classes> -->
+<!--       <class name="seleniumNewFeatures.WindowHandles"/> -->
+<!--     </classes> -->
+<!--   </test> Test -->
+
+<!--   <test thread-count="5" name="ChromeBrowserTest">   -->
+<!--    <parameter name="browser" value = "Chrome"></parameter>    -->
+<!--    <classes> -->
+<!--       <class name="seleniumNewFeatures.WindowHandles"/> -->
+<!--     </classes> -->
+<!--   </test> Test -->
+    <test name="jagadeesh">
+        <classes>
+            <class name="seleniumNewFeatures.SuiteExecution1"></class>
+        </classes>
+    </test>
+
+
+</suite> <!-- Suite -->
